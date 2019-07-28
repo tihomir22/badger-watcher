@@ -1,0 +1,13 @@
+
+<canvas
+  *ngIf="dataAvalaible"
+  baseChart
+  [datasets]="financialChartData"
+  [options]="financialChartOptions"
+  [colors]="financialChartColors"
+  [legend]="financialChartLegend"
+  [chartType]="financialChartType"
+  [plugins]="financialChartPlugins"
+  width="100%"
+  height="100%">
+</canvas>
